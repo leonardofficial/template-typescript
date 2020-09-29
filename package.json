@@ -24,6 +24,7 @@
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint . --ext .ts --fix",
-    "start": "ts-node src/index.ts"
+    "start": "node build/index.js",
+    "ts-start": "ts-node src/index.ts"
   }
 }
